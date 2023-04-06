@@ -1,4 +1,4 @@
-package exercises.entities;
+package exercises.car_rental.entities;
 
 // Implements the head class TaxService
 public class BrazilTaxService implements TaxService{

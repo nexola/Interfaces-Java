@@ -1,4 +1,4 @@
-package exercises.entities;
+package exercises.car_rental.entities;
 
 public class Invoice {
     private Double basicPayment;

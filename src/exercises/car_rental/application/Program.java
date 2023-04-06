@@ -1,9 +1,9 @@
-package exercises.application;
+package exercises.car_rental.application;
 
-import exercises.entities.BrazilTaxService;
-import exercises.entities.CarRental;
-import exercises.entities.RentalService;
-import exercises.entities.Vehicle;
+import exercises.car_rental.entities.BrazilTaxService;
+import exercises.car_rental.entities.CarRental;
+import exercises.car_rental.entities.RentalService;
+import exercises.car_rental.entities.Vehicle;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -27,7 +27,7 @@ public class Program {
         LocalDateTime finish = LocalDateTime.parse(sc.nextLine(), dtf);
 
         CarRental cr = new CarRental(start, finish, new Vehicle(carModel));
-        
+
         System.out.print("Enter price per hour: $");
         double pricePerHour = sc.nextDouble();
         System.out.print("Enter price per day: $");
