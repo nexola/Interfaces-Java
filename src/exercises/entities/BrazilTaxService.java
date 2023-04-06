@@ -1,8 +1,9 @@
 package exercises.entities;
 
-public class BrazilTaxService {
+// Implements the head class TaxService
+public class BrazilTaxService implements TaxService{
 
-    // Tax amount for Brazil costumers
+    // Tax amount for Brazil
     public double tax(double amount) {
         if (amount <= 100.0) {
             return amount * 0.2;
