@@ -65,7 +65,7 @@ public class Contract {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         sb.append("Installments: \n");
         for (int i = 0; i < portion; i++) {
-            sb.append(dtf.format(date.plusMonths(i + 1))).append(" - ").append(installments.get(i)).append("\n");
+            sb.append(dtf.format(date.plusMonths(i + 1))).append(" - ").append(String.format("$%.2f", installments.get(i))).append("\n");
         }
         return sb.toString();
         }

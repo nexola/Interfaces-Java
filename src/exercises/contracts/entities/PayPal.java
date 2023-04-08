@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PayPal implements PaymentService {
 
-    // PayPal Fee per month 1% | Payment tax 2%
+    // PayPal interest per month 1% | Payment tax 2%
     // Returns a list of installments
     @Override
     public List<Double> tax(double amount, int portion) {
