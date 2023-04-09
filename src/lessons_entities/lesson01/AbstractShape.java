@@ -1,8 +1,8 @@
-package lessons_entities;
+package lessons_entities.lesson01;
 
-import lessons_enums.Color;
+import lessons_enums.lesson01.Color;
 
-public abstract class AbstractShape implements Shape{
+public abstract class AbstractShape implements Shape {
     private Color color;
 
     public AbstractShape(Color color) {

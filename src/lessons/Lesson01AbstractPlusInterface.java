@@ -1,9 +1,9 @@
 package lessons;
 
-import lessons_entities.AbstractShape;
-import lessons_entities.Circle;
-import lessons_entities.Rectangle;
-import lessons_enums.Color;
+import lessons_entities.lesson01.AbstractShape;
+import lessons_entities.lesson01.Circle;
+import lessons_entities.lesson01.Rectangle;
+import lessons_enums.lesson01.Color;
 
 public class Lesson01AbstractPlusInterface {
     public static void main(String[] args) {

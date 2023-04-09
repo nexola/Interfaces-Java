@@ -1,4 +1,4 @@
-package lessons_entities;
+package lessons_entities.lesson01;
 
 public interface Shape {
 

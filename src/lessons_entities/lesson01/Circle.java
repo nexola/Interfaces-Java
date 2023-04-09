@@ -1,6 +1,6 @@
-package lessons_entities;
+package lessons_entities.lesson01;
 
-import lessons_enums.Color;
+import lessons_enums.lesson01.Color;
 
 public class Circle extends AbstractShape {
 
